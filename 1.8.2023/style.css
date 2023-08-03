@@ -1,0 +1,54 @@
+.title{
+    text-align: center;
+}
+img{
+    height: 225px;
+    width: 224px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.personal-profile{
+    height: 225px;
+    width: 224px;
+    margin-right: 20px;
+}
+.personal-profile p{
+    text-align: center;
+    color: gray;
+}
+h1{
+    color: white;
+}
+.everything{
+    margin-top: 150px;
+}
+body{
+    margin: 0px;
+}
+html{
+    background-color: black;
+}
+button{
+    border: 1px solid gray;
+    color: gray;
+    background-color: black;
+}
+.button{
+    margin-top: 100px;
+    text-align: center;
+}
+.personal-profile:hover{
+    cursor: pointer;
+    border: 3px solid white;
+    
+}
+.personal-profile:hover p{
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    border-color: white;
+}
